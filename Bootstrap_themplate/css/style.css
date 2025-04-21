@@ -216,3 +216,43 @@ h6{
   text-align: center;
   font-size: 15px;
 }
+
+.gallery-item {
+    text-align: center;
+}
+
+.gallery-caption {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.gallery-img {
+    transition: transform 0.2s ease;
+}
+
+.gallery-img:hover {
+    transform: scale(1.03);
+}
+
+h1 {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #f5f5f5;
+}
+
+.carousel-inner img {
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.description {
+  text-align: center;
+  max-width: 800px;
+  margin: 2rem auto;
+  font-size: 1.2rem;
+  color: #ddd;
+}
